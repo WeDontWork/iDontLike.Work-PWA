@@ -110,7 +110,7 @@ export default {
       this.currentReasonIndex += 1;
       if (this.currentReasonIndex === this.reasons.length) {
         // displayed all messages done screen.
-        currentReasonIndex = 0;
+        this.currentReasonIndex = 0;
       }
       this.currentColorIndex += 1;
       if (this.currentColorIndex === this.colorList.length) {
